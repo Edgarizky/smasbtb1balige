@@ -1,6 +1,6 @@
 import React from "react";
 import SEO from "../common/seo";
-import HomeOne from "../components/homes/home-3";
+import HomeOne from "../pages/404,jsx";
 import Wrapper from "../layout/wrapper";
 
 const Home = () => {
