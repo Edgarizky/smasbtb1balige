@@ -1,4 +1,3 @@
-import Brwoser from '@/src/common/brwoser';
 import { CopyRight } from '@/src/common/social-links';
 import EmailIcon from '@/src/svg/email';
 import EmailTwo from '@/src/svg/email-2';
@@ -13,11 +12,9 @@ import footer_logo from  "../../../public/assets/img/logo/logo-black.png";
 
 const footer_content = {
     bg_img: "/assets/img/footer/overly.png",
-    title: <>Get Early Access to Softuch. <br /> <span>Close Your Books Faster and Grow.</span></>,
-    btn_text: "Try it on Browser",
-    phone: "+806(000)8899",
-    email: "contact@info.com",
-    description: <>Build a modern and creative website with crealand</>,
+    phone: "+6282160436752",
+    email: "smabintangtimurb@gmail.com",
+    description: <>Yayasan DON BOSCO Manado Unit Kantor Perwakilan Balige</>,
 
     footer_lisks : [
         {
@@ -27,27 +24,11 @@ const footer_content = {
             title: "Navigation",
             delay: ".7s",
             links: [
-                {name: "Damo page", link: "#"},
-                {name: "About", link: "/about"},
-                {name: "Pricing Plan", link: "/price"},
-                {name: "Integrations", link: "/integrations"},
-                {name: "Blog", link: "/blog"},
-                {name: "Contact", link: "/contact"},
-            ]
-        },
-        {
-            id: 2,
-            cls_1: "col-xl-2 col-lg-2",
-            cls_2: "footer-col-3-3",
-            title: "Other Pages",
-            delay: ".9s",
-            links: [
-                {name: "Features", link: "#"},
-                {name: "Team", link: "/team"},
-                {name: "Careers", link: "#"},
-                {name: "Login", link: "/login"},
-                {name: "Register", link: "/register"},
-                {name: "404 Not found", link: "/error"},
+                {name: "Profil Sekolah", link: "#"},
+                {name: "Berita", link: "/about"},
+                {name: "PPDB", link: "/price"},
+                {name: "E-learning", link: "/integrations"},
+                {name: "Kontak Kami", link: "/blog"},
             ]
         },
 
@@ -81,17 +62,12 @@ const {bg_img, title, btn_text, footer_lisks, social_links, phone , email, descr
 
 // footer slider data 
 const footer_slider_data = [
-    "Free trial",
-    "Lightning-fast onboarding.",
-    "All-in-one CRM",
-    "Cards for your whole team.",
-    "Free trial",
-    "Free migrations",
-    "Incredible support",
-    "Lightning-fast onboarding.",
-    "Cards for your whole team.",
-    "Free trial",
-    "Free migrations", 
+    "Salah Satu Sekolah Swasta Terbaik",
+    "Fasilitas Belajar Yang Memadai",
+    "Tenaga Pendidik Yang Profesional",
+    "Biaya Pendidikan Yang Terjangkau",
+    "Lingkungan Suasana Belajar Yang Mendukung",
+    "Kurikulum Pendidikan Terpadu", 
 ]
 // slider setting
 const setting = {
@@ -139,33 +115,7 @@ const FooterThree = () => {
         <>
         <div className="footer-bottom-content tp-browser-bg-shape"
              style={{backgroundImage: `url(${bg_img})`}}>
-                
-            <div className="tp-browser-details-area pt-110 pb-30 p-relative">
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-xl-9 col-lg-9">
-                        <div className="tp-browser-section-box d-flex justify-content-between align-items-center mb-30">
-                        <h3 className="tp-section-title-3">{title}</h3>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3">
-                        <div className="tp-browser-btn text-lg-end text-start mb-40">
-                        <Link className="tp-btn-blue-lg tp-btn-hover" href="#">
-                            <span>{btn_text}</span>
-                            <b></b>
-                        </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-12">
-                        <div className="tp-hero-browser-wrapper footer-browser-item d-flex align-items-center">
-                            <Brwoser /> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
+        </div>
 
             <footer> 
 
@@ -282,7 +232,6 @@ const FooterThree = () => {
                 </div>
             </div>
             </footer>
-        </div>
         </>
     );
 };
